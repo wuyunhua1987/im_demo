@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container chat-container">
+        <header class="chat-header">
+            <h1 id="room-title">正在加载...</h1>
+        </header>
+        <main id="message-container" class="message-container">
+            <!-- 消息将在这里显示 -->
+        </main>
+        <footer class="chat-footer">
+            <form id="message-form" class="message-form">
+                <input type="text" id="message-input" placeholder="输入消息..." autocomplete="off" required>
+                <button type="submit">发送</button>
+            </form>
+        </footer>
+    </div>
+    <script type="module" src="chat.js"></script>
+</body>
+</html>
